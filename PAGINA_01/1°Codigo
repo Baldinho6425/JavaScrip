@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>La'Paghina</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   <script src='main.js'></script>
+</head>
+   <body>
+       <style>
+           div.centered-text{
+               text-align: center;
+           }
+       </style>
+       <div class="centered-text">
+           <h1>Seja Bem vindo </h1>
+           <p>Faça uma Escolha</p>
+       </div>
+
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+       <div class="options-box">
+           <button class="tab-button" onclick="openTab('AnimeWorld')" class="option">AnimeWorld</button>
+           <button class="tab-button" onclick="openTab('GameCenter')" class="option">GameCenter</button>
+           <button onclick="alert('NaoConfigurado')" class="option">ShopStation</button>
+       </div>
+   </body>
+
+   <marquee><img src="build/Kururu.gif" alt=""></marquee>
+
+
+    
+    <div class="tab" id="AnimeWorld">
+       <h2>Conteúdo da Aba 1</h2>
+       <p>Texto da primeira aba.</p>
+   </div>
+   <div class="tab" id="GameCenter">
+       <h2>Conteúdo da Aba 2</h2>
+       <p>Texto da segunda aba.</p>
+   </div>
+
+   <script>
+       // Função para exibir a aba selecionada
+       function openTab(tabName) {
+           const tabs = document.getElementsByClassName('tab');
+           for (const tab of tabs) {
+               tab.style.display = 'none';
+           }
+           document.getElementById(tabName).style.display = 'block';
+       }
+   </script>
+
+
+   </body>
+</html>

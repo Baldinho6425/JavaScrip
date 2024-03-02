@@ -1,0 +1,53 @@
+.options-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffffd8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.option {
+    padding: 10px;
+    border: 1px solid #086317;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #e0dfe4a1;
+}
+
+ /* Estilize as abas */
+ .tab {
+    display: none;
+}
+
+/* Estilize os botões das abas */
+.tab-button {
+    cursor: pointer;
+}
+
+a[title]::before {
+    content: attr(title);
+    /* Estilize conforme necessário */
+}
+
+h1::first-line{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+}
+p::first-line{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+}
+
+h1 {
+    text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
+}
