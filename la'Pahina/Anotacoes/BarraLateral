@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <button class="sidebar__toggle" type="button" aria-label="Toggle sidebar"></button>
+  
+    <ul class="sidebar__navigation sidebar-navigation">
+  
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#topo" title="Home">Home</a>
+      </li>
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#cadastro" title="Formulários">Formulários</a>
+      </li>
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#" title="Menus Html">Galeria de Fotos</a>
+      </li>
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#" title="Galeria de Fotos">Opcao1</a>
+      </li>
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#" title="Botão Css">Opcao2</a>
+      </li>
+      <li class="sidebar-navigation__item">
+        <a class="sidebar-navigation__link" href="#" title="Templates">Opcao3</a>
+      </li>
+  
+    </ul>
+  
+  </div>
