@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,200"
+    />
+    <script src="../js/exer04.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <a href="../index.html"
+          ><span class="material-symbols-outlined"> arrow_back </span></a
+        >
+        <p class="enunciado">
+          Crie uma função em JavaScript que receba 2 palavras através de campos
+          de formulário e depois imprima-as intercaladas em um outro campo de
+          formulário que deve está desabilitado (o usuário não deve conseguir
+          digitar nenhum valor nesse campo). Ex: "Joao" e "Mary"; a impressão
+          deve ser: "Jmoaaroy".
+        </p>
+
+        <label for="nome1">Primeiro nome:</label>
+        <input type="text" id="nome1" /><br />
+        <label for="nome2">Segundo nome:</label>
+        <input type="text" id="nome2" /><br />
+        <button onclick="intercalar()">Intercalar</button>
+        <input type="text" disabled id="intercaladas" />
+      </div>
+    </div>
+  </body>
+</html>
