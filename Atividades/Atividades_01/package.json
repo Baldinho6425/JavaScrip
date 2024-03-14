@@ -1,0 +1,17 @@
+{
+  "name": "atividades",
+  "version": "1.0.0",
+  "description": "Atividades feitas em aula de Programação",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maick Tonet",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "electron": "^29.1.1",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
