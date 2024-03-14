@@ -1,4 +1,4 @@
-const banners = ["../images/banner1.jpg", "../images/banner2.jpg", "../images/banner3.jpg", "../images/banner4.jpg", "../images/banner5.jpg"]
+const banners = ["../Images/banner1.jpg", "../Images/banner2.jpg", "../Images/banner3.jpg", "../Images/banner4.jpg", "../Images/banner5.jpg"]
 var bannerAtual = 0;
 var intervalo = null;
 
