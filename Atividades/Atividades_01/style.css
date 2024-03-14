@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "", sans-serif;
 }
 
 body {
@@ -50,7 +50,7 @@ span:hover {
 .enunciado {
   margin: 15px;
   font-size: 15px;
-  color: #a9a9a9;
+  color: #095706;
 }
 
 input[type="text"] {
@@ -71,8 +71,8 @@ label {
 }
 
 button {
-  background-color: dodgerblue;
-  color: white;
+  background-color: rgb(85, 6, 158);
+  color: rgba(184, 184, 184, 0.295);
   font-size: 15px;
   transition: 0.3s;
   margin: 10px;
